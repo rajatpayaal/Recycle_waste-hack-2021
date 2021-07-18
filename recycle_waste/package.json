@@ -1,5 +1,6 @@
 {
   "name": "recycle_waste",
+  "homepage": "https://rajat-payal.github.io/react_portfolio/",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8080",
@@ -16,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
