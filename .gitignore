@@ -1,0 +1,6 @@
+coverage
+node_modules
+node_modules_linux
+.nyc_output
+server/localdev-config.json
+server/credentials.json

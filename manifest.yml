@@ -1,0 +1,17 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: recyclewastehack2021
+  buildpack: nodejs_buildpack
+  command: npm start
+  disk_quota: 1G
+  memory: 704MB
+  domain: eu-gb.mybluemix.net
+  host: recyclewastehack-2021
+  services:
+    - recycle-waste-hack-2-cloudobjectstor-162645521214-
+    - recycle-waste-hack-2-cloudant-1626455660683-58462
+    - recycle-waste-hack-2-conversation-1626455744269-12
+  env:
+    OPTIMIZE_MEMORY: true

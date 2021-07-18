@@ -1,0 +1,138 @@
+{
+  "application_name": {
+    "searchPatterns": [
+      "cloudfoundry:$.application_name",
+      "env:K_SERVICE"
+    ]
+  },
+  "cloudObjectStorage_apikey": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudObjectStorage_apikey"
+    ]
+  },
+  "cloudObjectStorage_endpoints": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudObjectStorage_endpoints"
+    ]
+  },
+  "cloudObjectStorage_iam_apikey_description": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudObjectStorage_iam_apikey_description"
+    ]
+  },
+  "cloudObjectStorage_iam_apikey_name": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudObjectStorage_iam_apikey_name"
+    ]
+  },
+  "cloudObjectStorage_iam_role_crn": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudObjectStorage_iam_role_crn"
+    ]
+  },
+  "cloudObjectStorage_iam_serviceid_crn": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudObjectStorage_iam_serviceid_crn"
+    ]
+  },
+  "cloudObjectStorage_resource_instance_id": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudObjectStorage_resource_instance_id"
+    ]
+  },
+  "cloudObjectStorage_serviceInfo": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudObjectStorage_serviceInfo"
+    ]
+  },
+  "cloudant_apikey": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_apikey"
+    ]
+  },
+  "cloudant_host": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_host"
+    ]
+  },
+  "cloudant_iam_apikey_description": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_description"
+    ]
+  },
+  "cloudant_iam_apikey_name": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_iam_apikey_name"
+    ]
+  },
+  "cloudant_iam_role_crn": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_iam_role_crn"
+    ]
+  },
+  "cloudant_iam_serviceid_crn": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_iam_serviceid_crn"
+    ]
+  },
+  "cloudant_password": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_password"
+    ]
+  },
+  "cloudant_port": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_port"
+    ]
+  },
+  "cloudant_url": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_url"
+    ]
+  },
+  "cloudant_username": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_username"
+    ]
+  },
+  "cloudant_serviceInfo": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.cloudant_serviceInfo"
+    ]
+  },
+  "conversation_apikey": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.conversation_apikey"
+    ]
+  },
+  "conversation_iam_apikey_description": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.conversation_iam_apikey_description"
+    ]
+  },
+  "conversation_iam_apikey_name": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.conversation_iam_apikey_name"
+    ]
+  },
+  "conversation_iam_role_crn": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.conversation_iam_role_crn"
+    ]
+  },
+  "conversation_iam_serviceid_crn": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.conversation_iam_serviceid_crn"
+    ]
+  },
+  "conversation_url": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.conversation_url"
+    ]
+  },
+  "conversation_serviceInfo": {
+    "searchPatterns": [
+      "file:/server/localdev-config.json:$.conversation_serviceInfo"
+    ]
+  }
+}
